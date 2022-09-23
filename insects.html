@@ -17,6 +17,20 @@
   
   </head>
 <body>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+<div class="container">
+<a class="navbar-brand text-wrap" href="insects.html">Interesting Facts</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-link active"><a class="nav-link" href="basic.html">Basic</a></li>
+    <li class="nav-link active"><a class="nav-link" href="advanced.html">Advanced</a></li>
+  </ul>
+</div>
+</div>
+</nav>
 <h1>Insects By Mahima Chowdary Gollamudi</h1>
 <div class="container">
   <div class="row">
@@ -36,8 +50,112 @@
     <div class="col-md">Mayflies</div>
   </div>  
 </div>
+<div class="container">
+<div class="row">
+    <div class="col-sm"><img src="grasshopper.jpg" class="img-fluid" alt="grasshopper" style="height:400px;width:400px;"></div>
+    <div class="col-sm"><img src="Lacewings.jpg" class="img-fluid" alt="lacewings" style="height:400px;width:400px;"></div>
+    <div class="col-sm"><img src="Owlfly.jpg" class="img-fluid" alt="owlfly" style="height:400px;width:400px;"></div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm"><img src="grasshopper.jpg" class="img-thumbnail" alt="grasshopper" style="height:400px;width:400px;"></div>
+    <div class="col-sm"><img src="Lacewings.jpg" class="img-thumbnail" alt="lacewings" style="height:400px;width:400px;"></div>
+    <div class="col-sm"><img src="Owlfly.jpg" class="img-thumbnail" alt="owlfly" style="height:400px;width:400px;"></div>
+</div>
+</div>
+<table class="table table-bordered table-striped table-hover table-sm">
+<caption>Insects and their origins</caption>
+<tr>
+  <th class="table-dark">Letter</th>
+  <th class="table-dark">Insect</th>
+  <th class="table-dark">City</th>
+  <th class="table-dark">River</th>
+</tr>
+<tr class="table-info">
+  <td>G</td>
+  <td>Grasshopper</td>
+  <td>Garland</td>
+  <td>Ganges</td>
+</tr>
+<tr>
+  <td>O</td>
+  <td>Owlfly</td>
+  <td>Oklahoma</td>
+  <td>Otay</td>
+</tr>
+<tr class="table-info">
+  <td>L</td>
+  <td>Lacewings</td>
+  <td>Louisville</td>
+  <td>La Crosse</td>
+</tr>
+<tr>
+  <td>L</td>
+  <td>Leafhoppers</td>
+  <td>Los Angeles</td>
+  <td>Lafayette</td>
+</tr>
+<tr class="table-info">
+  <td>A</td>
+  <td>Alderflies</td>
+  <td>Atlanta</td>
+  <td>Acushnet</td>
+</tr>
+<tr>
+  <td>M</td>
+  <td>Mayflies</td>
+  <td>Miami</td>
+  <td>Mackinaw</td>
+</tr>
+</table>
+<button type="button" class="btn">G</button>
+<button type="button" class="btn">O</button>
+<button type="button" class="btn">L</button>
+<button type="button" class="btn">L</button>
+<button type="button" class="btn">A</button>
+<button type="button" class="btn">M</button>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-group me-2" role="group" aria-label="First group">
+  <button type="button" class="btn btn-success">G</button>
+  <button type="button" class="btn btn-success">O</button>
+  <button type="button" class="btn btn-success">L</button>
+</div>
+<div class="btn-group me-2" role="group" aria-label="Second group">
+  <button type="button" class="btn btn-warning">L</button>
+  <button type="button" class="btn btn-warning">A</button>
+</div>
+<div class="btn-group me-2" role="group" arial-label="Third group">
+  <button type="button" class="btn btn-danger">M</button>
+</div>
+</div>
+<br>
+<div class="dropdown">
+  <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Dropdown
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="basic.html">Basic</a>
+    <a class="dropdown-item" href="advanced.html">Advanced</a>
+  </div>
+</div>
 <p><i>The insect names row breaks first</i></p>
 <p>The reason is columns of medium size breaks first because they occupy more space</p>
-
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="form-group">
+    <label class="form-label">Insect</label>
+    <input type="text" class="form-control" placeholder="Enter your insect">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">Sign up for newsletter?</label>
+    <input type="checkbox" class="form-check-input">
+  </div>
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
 </body>
 </html>
